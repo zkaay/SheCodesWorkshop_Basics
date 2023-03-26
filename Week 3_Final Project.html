@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        background: linear-gradient(180deg, white 60%, orange);
+          
+    }
+    
+    h1 {
+        text-align: center;
+        font-size: 48px;
+        line-height: 20px;
+    }
+   
+   
+    h2 {
+        color: orange;
+        font-size: 48px;
+        text-align: center;
+        text-decoration: underline;
+
+        
+    }
+
+ 
+    h3 {
+        text-align: center;
+        margin: 50px;
+        border: 2px solid orange; 
+        background: rgb(249, 218, 160);
+        padding: 20px;
+        font-weight: thin;
+        
+    }
+
+    a {
+        font-size: 16px;
+    }
+    
+    span {
+        font-size: 26px;
+
+    }
+
+    p {
+       border: 2px solid orange;
+       text-align: left; 
+       margin: 50px;
+       padding: 20px;
+       font-size: 16px;
+       font-weight: thin;
+    }
+
+    
+    
+    ol {
+        padding:20px;
+        margin: 50px;
+        margin-top: 5px;
+        border-color: black;
+    }
+
+    li {
+        font-size: large;
+        
+    }
+    
+    button {
+        display: block;
+        color:black;
+        font-size: 16px;
+        background: rgb(249, 218, 160);
+        padding: 10px 10px;
+        border: 1px solid orange;
+        border-radius: 5px;
+        margin: 10px auto;
+        line-height: 22px;
+        transition: all 200ms ease;
+        box-shadow: 0px 0px 0px 0;
+        
+    }
+    
+    
+    button:hover {
+        background: transparent;
+        color: rgb(249, 218, 160);
+        cursor: pointer;
+        
+    }
+    
+    footer {
+        font-family:monospace;
+        font-size: 14px;
+        text-align: left;
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+    
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+    }
+    .varieties {
+        font-size: 30px;
+        text-decoration: underline;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    .info-about-variety {
+         font-size: 18px;
+         padding: 30px;
+         margin-top: 10px;
+    }
+    .more-varieties {
+        color:black;
+        text-align: center;
+        
+    }
+    
+    
+    
+    
+    
+    
+    </style>
+
+<body>
+    <h1>
+        🍵           
+    </h1>
+    
+        <h2>
+            Tea Time!
+        </h2>
+                
+        <h3>
+            <span>"To brew or not to brew... that is the question."</span>
+        </h3>
+        
+        
+        <p> At the very least, tea is a flavourful way of getting more liquid into your body. 
+            Statistics suggest that after water, tea (in the most general sense) is by far the most consumed liquid in the world. 
+            At the very most, however... it can be the most aromatic, <em>heavenly</em> experience.
+            Nutritionists recommend a cup a day of any sort of tea can help improve 
+            the digestive and immune systems. However, some even go as far as to claim it can have a calming effect 
+            on the body's parasympathetic nervous system. As well as it's medicinal benefits, there is evidence to suggest 
+            it's positive impact on mental health; reducing anxiety and depression in those susceptible to it
+            and suffering from it; whereby holding a warm cup of tea triggers the same bodily response as receiving a loving hug. 
+            
+        </p>
+        
+
+    <img src="https://images.pexels.com/photos/14056856/pexels-photo-14056856.jpeg?auto=compress&cs=tinysrgb&w=600" alt="tea and leaves" class = "center">
+
+        <h3>
+            Tea comes from the evergreen shrub called Camellia sinensis. There are two varietals: Camellia sinensis var. sinensis (Chinese tea) and Camellia sinensis var. assamica (Assam or Indian tea). All tea comes from this plant.
+        <a href="https://en.wikipedia.org/wiki/Tea" target=_blank><br> Find out more about tea here</a>
+        </h3>
+
+
+        <div class = "varieties"> "Varie-tea is the spice of life!" </div>
+        <p class = "info-about-variety">
+            Before we start exploring the world of tea varieties, we need to understand the main categories of tea: <strong>black, oolong, green, white, yellow, and fermented/pu'erh.</strong>
+        
+        <button class="more-varieties">Click here to receive more information</button>
+
+        <div class = "varieties">"Sweet dreams are made of tea." </div>
+        <ol>
+            <li>
+                Run the tap a little so the water's nicely aerated, and only boil it once to keep the oxygen level up because oxygen in water helps flavour.
+            </li>
+            <li>
+                Pop a tea bag into your mug (<em>always</em> a big mug)
+            </li>
+            <li>
+                Pour the hot water over the tea bag and stir briefly.
+            </li>
+            <li>
+                Tea needs time to unlock all its flavour, so give it 3-4 minutes to do its thing. This is a perfect time to grab a sneaky cookie or daydream about vacations.
+            </li>
+            <li>
+                Before removing the tea bag, gently squish it with a spoon against the side of the mug - but not too much or you'll make it bitter.
+            </li>
+            <li>
+                If you want, throw in some milk, sugar or honey to sweeten or nothing at all if you prefer it simple.
+            </li>
+        </ol>
+              
+        
+        <script>
+            function moreVarieties() {
+            let firstName = prompt("What is your first name?");
+            let email = prompt("What is your email address?");
+            let question = prompt("Do you want to learn more about tea?");
+        
+            question = question.toLowerCase().trim();
+
+            if (question === "yes") {
+            alert("Hi " + firstName + ", that's totally tea-rrific!");
+        
+            } else {
+            alert("Go learn about tea! It's fan-tea-stic!");
+        }
+    }
+    let contactButton = document.querySelector("button");
+    
+    contactButton.addEventListener("click", moreVarieties);
+
+    </script>
+<hr>
+    <footer> Coded by Zahra K </footer>
+
+</body>
+</html>
+            
+            
+ <!---
+
+
+
+    
+    
+-->
